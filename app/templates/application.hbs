@@ -1,5 +1,14 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="grid">
+    <header><h1 class="title">Wrapper-Keeper</h1></header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/text-post">Post</a>
+        <a href="/">Archive</a>
+        <a href="/">...</a>
+        <a href="/">...</a>
+    </nav>
+    <div class="content">
+        {{outlet}}
+    </div>
+    <footer><a href="http://twitter.com/aliseisaksen">@aliseisaksen</a> | 2017</footer>
+</div>
