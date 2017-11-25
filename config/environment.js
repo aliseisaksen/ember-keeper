@@ -44,9 +44,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'auto';
-    // ENV.rootURL = '/ember-keeper/';
-    ENV.baseURL = '/';
+    ENV.locationType = 'none';
+    ENV.rootURL = '/ember-keeper/';
+    //ENV.baseURL = '/';
     // here you can enable a production-specific feature
   }
 
