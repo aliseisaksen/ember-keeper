@@ -5,7 +5,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-keeper',
     environment,
-    rootURL: '/ember-keeper',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
