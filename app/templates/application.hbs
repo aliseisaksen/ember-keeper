@@ -1,11 +1,11 @@
 <div class="grid">
     <header><h1 class="title">Wrapper-Keeper</h1></header>
     <nav>
-        <a href="/">Home</a>
-        <a href="/text-post">Post</a>
-        <a href="/">Archive</a>
-        <a href="/">...</a>
-        <a href="/">...</a>
+        {{#link-to '/'}}Home{{/link-to}}
+        {{#link-to 'text-post'}}Post{{/link-to}}
+        {{#link-to '/'}}Archive{{/link-to}}
+        {{#link-to '/'}}...{{/link-to}}
+        {{#link-to '/'}}...{{/link-to}}
     </nav>
     <div class="content">
         {{outlet}}
